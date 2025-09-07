@@ -45,6 +45,7 @@ a:hover {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  font-size: 24px; 
 }
 .logo {
   font-weight: 400;
@@ -67,7 +68,6 @@ a:hover {
 }
 .icon-link:hover { background: rgba(72,79,83,0.12); }
 .icon-link i { 
-  font-size: 18px; 
   color: currentColor; 
 }
 
@@ -116,6 +116,7 @@ a:hover {
 .media { display: grid; }
 .media__embed { position: relative; width: 100%; padding-top: 56.25%; border-radius: 12px; overflow: hidden; background: transparent; box-shadow: 0 10px 30px rgba(0,0,0,0.4); }
 .media__embed iframe { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; }
+.media__caption { margin-top: 8px; font-size: 14px; color: var(--text); }
 
 .shows-list { margin-top: 24px; }
 .show-item { 
@@ -179,6 +180,14 @@ a:hover {
   color: var(--text); 
   font-style: italic; 
   padding: 20px;
+}
+.band-photo {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+  display: grid;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.4);
+  border-radius: 12px; 
 }
 
 .subscribe { display: grid; grid-template-columns: 1fr auto; gap: 12px; max-width: 520px; margin: 16px auto 8px; }
