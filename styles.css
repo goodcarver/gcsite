@@ -106,12 +106,13 @@ a:hover {
 .feature-list { margin: 8px 0 0; padding: 0; list-style: none; display: grid; gap: 8px; color: var(--text); }
 
 .section .streaming-links { 
-  margin-top: 48px; 
   color: var(--text); 
 }
 .streaming-links a { 
   margin: 0 4px; 
 }
+
+.stripe-container { margin-top: 40px; text-align: center; }
 
 .media { display: grid; }
 .media__embed { position: relative; width: 100%; padding-top: 56.25%; border-radius: 12px; overflow: hidden; background: transparent; box-shadow: 0 10px 30px rgba(0,0,0,0.4); }
